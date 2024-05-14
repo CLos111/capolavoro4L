@@ -1,0 +1,46 @@
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+}
+
+.nav {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-left: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8vh;
+  background: rgb(0, 33, 65);
+  font-size: 62.5%;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.logo{
+  color: white;
+  font-size: 1.6rem;
+}
+
+.link{
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo{
+    color: white;
+    font-size: 1.3rem;
+  }
+  .link{
+    font-size: 1.0rem;
+  }
+}
